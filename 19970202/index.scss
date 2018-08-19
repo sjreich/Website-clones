@@ -1,0 +1,30 @@
+#title {
+  border: 1px solid black;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.bottom-box {
+  padding: 0 40px 0 40px;
+}
+
+table  {
+  margin: 0 auto;
+}
+
+td {
+  &:nth-child(1) {
+    font-variant: small-caps;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: right;
+
+    ::after {
+      content: url('gradient_bar.gif');
+      display: block;
+      line-height: 0;
+    }
+  }
+}
